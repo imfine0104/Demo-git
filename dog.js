@@ -3,6 +3,7 @@ function Dog(){
 }
 
 Dog.prototype.eat = function(cat) {
+	cat.die();
 	this.stomatch.push(cat);
 };
 
